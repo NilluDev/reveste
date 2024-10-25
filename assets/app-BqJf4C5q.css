@@ -18,3 +18,28 @@
     background-color: #ffcc00; /* Bright yellow color */
   }
 }
+
+section,h1 {
+  padding: 0 1em;
+}
+
+.grid
+ {
+  display: grid;
+  grid-template-columns: repeat(2,150px);  /* 3 columns */
+  grid-template-rows: repeat(3,150px); /* 3 rows  */
+  grid-gap:50px 30px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  padding: 60px;
+}
+
+.grid-item{
+  padding:10px;
+}
+img {
+  width: 100%;
+}
+
+.responsive {
+  max-width: 300%; /* Ensure images don't exceed their container */
+  height: auto; /* Maintain aspect ratio */
+}
