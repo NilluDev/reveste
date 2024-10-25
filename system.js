@@ -6,5 +6,6 @@ function checkOrientation() {
   }
 }
 
+// Check orientation on load and resize
 window.addEventListener('load', checkOrientation);
 window.addEventListener('resize', checkOrientation);
